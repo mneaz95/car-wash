@@ -1,0 +1,40 @@
+.hideDiv1{
+   opacity:0;
+}
+
+.hideDiv2{
+    opacity:0;
+}
+
+.hideDiv3{
+   opacity:0;
+}
+
+.showDiv1{
+    -webkit-animation: fadein 1s linear 1 normal forwards;
+}
+
+.showDiv2{
+    -webkit-animation: fadein 1s linear 1 normal forwards;
+}
+
+.showDiv3{
+    -webkit-animation: fadein 1s linear 1 normal forwards;
+}
+
+@-webkit-keyframes fadein{
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
+@media only screen and (max-width:600px) {
+.text-responsive{
+    font-size:1.6rem;
+}
+
+
+.text-responsive-smaller{
+    font-size:.8rem;
+}
+}

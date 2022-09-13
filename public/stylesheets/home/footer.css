@@ -1,0 +1,276 @@
+.fullW{
+    /*background: linear-gradient(to right, #3399ff 0%, #66ccff 100%);*/
+    /*background-color:#1E3868;*/
+    background-image: linear-gradient(to right, #000428, #004e92);
+}
+
+.gold{
+    /*background: linear-gradient(to right, #ffbf00 0%, #FFDF00 100%);*/
+    /*background-color:#1E3868;*/
+    background-image: linear-gradient(to right, #000428, #004e92);
+}
+
+.silver{
+    /*background: linear-gradient(to right, #dadada 0%, #e7e7e7 100%);*/
+    /*background-color:#1E3868;*/
+    background-image: linear-gradient(to right, #000428, #004e92);
+}
+
+.plat{
+    /*background: linear-gradient(to right, #009900 0%, #33cc33 100%);*/
+    background-image: linear-gradient(to right, #000428, #004e92);
+    /*background-color:#1E3868;*/
+     
+}
+
+
+.sectionPrice{
+    margin-top:0px;
+}
+
+.spanPrice{
+    font-size:2rem;
+    vertical-align: top;
+}
+
+/*.sectionPrice{*/
+/*    margin-top:auto;*/
+/*}*/
+
+.tire{
+    padding-top:10px;
+    max-height:35px;
+}
+
+.threeInfo{
+    background: white;
+    
+}
+.price{
+    margin-right:25px;
+    border-radius:25px;
+    color: White;
+    text-align: center;
+    box-shadow: 3px 10px 5px #B8B8B8;
+    opacity: 1;
+    margin-top:10px;
+    height:600px;
+    width: 300px;
+}
+
+@media only screen and (max-width: 500px) {
+    .price{
+    margin-right:0px;
+    border-radius:25px;
+    color: White;
+    text-align: center;
+    box-shadow: 3px 10px 5px #B8B8B8;
+    opacity: 1;
+    margin-top:10px;
+    height:600px;
+    width: 300px;
+    }
+}
+
+
+
+
+.amount{
+    font-size: 5em;
+    font-weight: 600;
+    text-shadow: 1px 1px 3px #B8B8B8;
+    font-family: "Lato";
+}
+
+.classes{
+    font-size: .4em;
+    text-shadow: 1px 1px 15px #B8B8B8;
+    font-family: "Lato";
+}
+
+.threeInfo p{
+    font-size: 4.5rem;
+    font-weight: 600;
+}
+
+.titleP{
+    margin-top:20px; 
+    margin-bottom:0px;
+    font-size: 5em;
+    font-weight: 600;
+    text-shadow: 1px 1px 3px #B8B8B8;
+    font-family: "Lato";
+    
+}
+
+.price h2{
+    text-shadow: 1px 1px 2px #B8B8B8;
+}
+
+.price #plat h2{
+    text-shadow: 1px 1px 2px #B8B8B8;
+}
+
+.titleP hr{
+    background-color:black;
+    width:600px;
+    height: 1px;
+    max-width: 500px;
+    margin: auto;
+}
+
+
+.page-footer{
+    margin-top:50px;
+    background-color: #D3D3D3;
+   height:300px;
+    bottom: 0;
+}
+
+
+.footer-margin{
+    padding-top:50px;    
+}
+
+.footer-logo{
+    max-height: 300px;
+    max-width: 300px;
+}
+
+
+
+
+
+.page-footer .fTitle{
+    color: #1E3868;
+}
+
+.page-footer .info-p{
+    color:black;
+}
+
+.info{
+    max-height:100%;
+}
+
+.cInfo{
+    color: #1E3868;
+    font-weight:600;
+    font-size: 2rem;
+    padding-top:22px;
+}
+
+
+
+#myFooter {
+	background-color: #373a48;
+	color:white;
+}
+
+#myFooter .footer-copyright{
+	background-color: #383737;
+	padding-top:3px;
+	padding-bottom:3px;
+	text-align: center;
+}
+
+#myFooter .footer-copyright p{
+	margin:10px;
+	color: #ccc;
+}
+
+#myFooter ul{
+	list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+
+}
+
+#myFooter h5{
+	font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter a{
+	color:#d2d1d1;
+	text-decoration: none;
+}
+
+#myFooter a:hover, #myFooter a:focus{
+	text-decoration: none;
+	color:white;
+}
+
+#myFooter .myCols{
+	text-align: center;
+}
+
+#myFooter .social-networks{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 38px;
+}
+
+#myFooter .social-networks a{
+    font-size: 32px;
+    margin-right: 5px;
+    margin-left: 5px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover{
+	text-decoration: none;
+
+}
+
+#myFooter .facebook:hover{
+	color:#0077e2;
+}
+
+#myFooter .google:hover{
+	color:#ef1a1a;
+}
+
+#myFooter .twitter:hover{
+	color: #00aced;
+}
+
+@media screen and (max-width: 767px){
+	#myFooter {
+		text-align: center;
+	}
+}
+
+
+
+/* CSS used for positioning the footers at the bottom of the page. */
+/* You can remove this. */
+
+
+html{
+	height: 100% !important;
+}
+
+body{
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 100%;
+}
+
+.content{
+	flex: 1 0 auto;
+	-webkit-flex: 1 0 auto;
+	min-height: 200px;
+}
+
+#myFooter{
+	flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
+    margin-top:100px;
+}

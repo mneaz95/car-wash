@@ -1,0 +1,155 @@
+.hideDiv1{
+   opacity:0;
+}
+
+.hideDiv2{
+    opacity:0;
+}
+
+.hideDiv3{
+   opacity:0;
+}
+
+.upCharge{
+    margin-top:30px;    
+    font-size: 1.8rem;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+
+}
+
+.showDiv1{
+    -webkit-animation: fadein 1s linear 1 normal forwards;
+}
+
+.showDiv2{
+    -webkit-animation: fadein 1s linear 1 normal forwards;
+}
+
+.showDiv3{
+    -webkit-animation: fadein 1s linear 1 normal forwards;
+}
+
+@-webkit-keyframes fadein{
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideRight {
+  from {
+    margin-left: -100%;
+    width: -300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes slideLeft {
+  from{
+    margin-left: 100%;
+    width: -100%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.div1Animation {
+  animation-duration: 2.5s;
+  animation-name: slideLeft;
+}
+
+.div2Animation{
+  animation-duration: 2.5s;
+  animation-name: slideRight;
+}
+
+.div3Animation {
+  animation-duration: 2.5s;
+  animation-name: slideLeft;
+}
+
+#home-overview{
+  margin-bottom: 600px;
+}
+
+#carousel-example-2 .d-block{
+  height:800px;
+  width: 1080px;
+}
+
+
+
+@media only screen and (max-width:500px) {
+  #carousel-example-2 .d-block{
+  height:600px;
+  }
+}
+
+.carousel-text {
+  color:white;
+}
+
+a[href^=tel] {
+text-decoration:inherit;
+color: inherit;
+}
+#carousel-example-2 .carousel-inner {
+    box-shadow: 0px 5px 25px 0px rgba(0,0,0,0.5);
+}
+
+.view{
+   height:900px; 
+   background-image: url("https://cdn.pixabay.com/photo/2016/11/18/23/04/garage-1837335_960_720.jpg");
+   background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media only screen and (max-width:600px) {
+    .view{
+   height:500px; 
+  }
+}
+
+
+.view1{
+   height:900px; 
+   background-image: url("https://images.unsplash.com/photo-1520340356584-f9917d1eea6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80");
+   background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media only screen and (max-width:600px) {
+    .view1{
+   height:500px; 
+  }
+}
+
+
+.home-mainpage{
+    padding-bottom:6rem;
+}
+
+.home-text-div{
+    font-size: 1.3rem;
+font-weight: 400;
+font-family: "Lato";
+
+}
+
+
+.hr-white{
+    border-top: 1px solid white;
+}
+
+

@@ -1,0 +1,191 @@
+
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+
+
+
+.div-header-img img{
+    width:100%;
+    height:100%;
+    border-bottom-right-radius: 400px;
+    box-shadow: 0px 0px 8px 2px #000000;
+    
+}
+
+.div-header-img{
+    width:100%;
+    height: 90%;
+    padding:0px;
+
+}
+
+#header-top{
+    width:100%;
+    height: 730px;
+    margin:auto;
+    padding:0px;
+    background-color: #1E3868;
+}
+
+.carousel-caption p{
+    font-size:2rem;
+}
+
+@media only screen and (max-width:500px) {
+  .carousel-caption p{
+    font-size:1rem;
+    }
+}
+
+.propaneDiv{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+.gallarySectionBackground{
+   background-color: whitesmoke; 
+}
+
+.font-gallery{
+    font-weight:bolder;
+    font-size: 3rem;
+    font-family: "Lato";
+}
+
+@media only screen and (max-width:600px) {
+ .font-gallery{
+    font-weight:bolder;
+    font-size: 1.8rem;
+    font-family: "Lato";
+}
+}
+
+
+
+.newSection-gallery{
+    margin-top:100px;
+}
+
+.center-text {
+ position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.title-forcover{
+
+    font-size: 4rem;
+    font-family: "Lato";
+    color:white;
+}
+
+@media only screen and (max-width:600px) {
+
+.title-forcover{
+
+    font-size: 1.5rem;
+    font-family: "Lato";
+    color:white;
+}
+
+}
+
+
+
+.gallery-slider{
+    font-size:4rem;
+    font-family: 'Lato';
+    padding-left:20px;
+    color: #1E3868;
+}
+
+@media only screen and (max-width:600px) {
+.gallery-slider{
+    font-size:2.5rem;
+    font-family: 'Lato';
+    padding-left:20px;
+    color: #1E3868;
+}
+}
+
+
+
+.gallery-padding{
+ padding-left:20px;
+}
+
+.gallary-hr{
+    border: none;
+    height: 3px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+    padding-left:3px;
+}
+
+.gallery-section-textWithPicture{
+    background:whitesmoke;
+}
+
+.gallery-slides-hr{
+    width:100%;
+}
+
+.gallery-slides{
+    width:600px;
+    padding-left: 20px;
+}
+
+@media only screen and (max-width:600px) {
+   .gallery-slides{
+    width:400px;
+    padding-left: 20px;
+}
+}

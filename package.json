@@ -1,0 +1,26 @@
+{
+  "name": "car",
+  "version": "1.0.0",
+  "description": "car wash",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "nobin pak",
+  "license": "ISC",
+  "dependencies": {
+    "@types/vanilla-tilt": "^1.4.1",
+    "animate.css": "^3.7.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "method-override": "^3.0.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "react-tilt": "^0.1.4",
+    "tilt.js": "^1.2.1",
+    "vanilla-tilt": "^1.6.1"
+  },
+  "devDependencies": {}
+}

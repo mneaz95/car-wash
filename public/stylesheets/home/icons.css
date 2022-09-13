@@ -1,0 +1,109 @@
+.fa-car{
+     font-size: 50px;
+}
+
+.navbar .fa-cc-amex{
+    font-size: 90px;
+}
+
+
+
+.threeInfo #gold{
+    background: linear-gradient(to top right, #ffbc17 0%, #ffff99 100%);
+}
+
+
+
+.bWrapper p{
+    font-size: 3rem;
+}
+
+
+
+.cards{
+    font-size: 2rem;
+    color: #1E3868;
+}
+
+.title{
+    font-size: 2rem;
+    font-weight:600;
+    font-family: "Lato";
+    color: #1E3868;
+}
+
+.socialMedia{
+    font-size: 4rem;
+    color: white;
+}
+
+.logo{
+    max-height:150px;
+}
+/*Test*/
+@media (max-width: 767px) {
+    .logo{
+        max-height:100px;
+    }
+}
+/*Test*/
+.logo1{
+    margin: 0;
+    text-align: center;
+    height: 300px;
+}
+
+.follow{
+    color: #1E3868;
+    font-weight:600;
+    font-size: 2rem;
+    padding-top:22px;
+}
+@media (max-width: 767px) {
+    .follow-email{
+    font-size: 1.3rem;
+    }
+}
+
+
+
+/*.fa-youtube{*/
+/*    color:red;*/
+/*}*/
+
+/*.fa-twitter-square{*/
+/*    color:#1da1f2;*/
+/*}*/
+
+/*.fa-facebook-square{*/
+/*    color:#3b5998;*/
+/*}*/
+
+/*.fa-instagram{*/
+    
+/*}*/
+
+
+
+.responsive {
+  max-width: 100%;
+  /*height: auto;*/
+}
+
+.controlC{
+    font-size: 3rem;
+}
+
+.fa-mobile-alt{
+    color: black;
+    font-weight: 900;
+}
+
+
+.list-unstyled{
+    display: inline;
+}
+
+.icons-payment{
+    background-color:white;
+}

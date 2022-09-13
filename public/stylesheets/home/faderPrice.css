@@ -1,0 +1,32 @@
+
+.fade-in {
+  -webkit-animation: fadein 1s linear 1 normal backwards;
+}
+
+.one {
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  -ms-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}
+
+.two {
+  -webkit-animation-delay: 1.2s;
+  -moz-animation-delay:1.2s;
+  -ms-animation-delay: 1.2s;
+  animation-delay: 1.2s;
+}
+
+.three {
+  -webkit-animation-delay: 1.6s;
+  -moz-animation-delay: 1.6s;
+  -ms-animation-delay: 1.6s;
+  animation-delay: 1.6s;
+}
+
+.four {
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  -ms-animation-delay: 2s;
+  animation-delay: 2s;
+}

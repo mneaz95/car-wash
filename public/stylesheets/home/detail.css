@@ -1,0 +1,238 @@
+.flip-container {
+	perspective: 1000px;
+	position:relative;
+}
+	/* flip the pane when hovered */
+.flip-container:active .flipper, .flip-container.hover .flipper {
+	transform: rotateY(180deg);
+	transform-style: preserve-3d;
+}
+
+/*@media only screen and (max-width:500px) {*/
+/*	.flip-container .flipper, .flip-container.hover .flipper {*/
+/*	transform: rotateY(180deg);*/
+/*	transform-style: preserve-3d;*/
+/*	}*/
+	
+/*	.front{*/
+/*		display: none;*/
+/*	}*/
+
+/*}*/
+	
+.flip-container, .front, .back {
+	width: 100%;
+	height: 100%;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+@media only screen and (max-width:600px) {
+  .front, .back {
+	position: relative;
+	display:block;
+	margin: auto;
+	}
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	border: none;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+}
+
+#Home-detail{
+	margin-top:150px;
+}
+
+#carousel-caption1{
+	color:#ffffff;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:#ffffff;
+    text-align: center;
+}
+
+a[href^=tel] {
+text-decoration:inherit;
+color: inherit;
+}
+
+*::-webkit-media-controls-panel {
+  display: none!important;
+  -webkit-appearance: none;
+}
+
+/* Old shadow dom for play button */
+
+*::-webkit-media-controls-play-button {
+  display: none!important;
+  -webkit-appearance: none;
+}
+
+/* New shadow dom for play button */
+
+/* This one works! */
+
+*::-webkit-media-controls-start-playback-button {
+  display: none!important;
+  -webkit-appearance: none;
+}
+/*================*/
+
+.about-wrapper-1{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    /*justify-items:stretch;*/
+    /*align-items:stretch;*/
+    position: relative;
+    overflow: hidden;
+    
+    
+}
+
+#detail-Div{
+	margin-top:120px;
+}
+
+#detailPricing{
+	background:whitesmoke;
+}
+.aboutimg{
+    /*height:50%;*/
+    width: 100%;
+    max-height:600px;
+}
+
+
+@media screen and (max-width: 600px) {
+  #hello {
+    visibility: hidden;
+    clear: both;
+    display: none;
+  }
+}
+
+.detail-services{
+	font-size:1.8rem;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.detail-services-middle{
+	border-right: 2px solid;
+	border-left: 2px solid;
+}
+.detail-services-title{
+	text-shadow: 2px 2px 5px ;
+}
+
+.detail-package-title{
+	font-family: "lato";
+	font-weight:500;
+	font-size:2rem;
+}
+
+.wrapper1{
+	 max-width: 1600px;
+    margin: 0 auto;
+    height:400px;
+
+}
+
+.wrapper2{
+	 max-width: 1600px;
+    margin: 0 auto;
+}
+
+.card-padding{
+	
+
+}
+
+.img-container1 {
+    width: 100%;
+    height: 600px;
+    cursor: pointer;
+    overflow: hidden;
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+    &: hover .img-content-hover { display: block;
+    }: ;
+}
+.img-container1 img{
+		height:100%;
+	}
+
+
+@media screen and (max-width: 600px) {
+  .img-container1 {
+    width: 100%;
+    height: 500px;
+    cursor: pointer;
+    overflow: hidden;
+    display: block;
+	margin-left: auto;
+	margin-right: auto;
+    &: hover .img-content-hover { display: block;
+    }: ;
+}
+
+	.img-container1 img{
+		height:500px;
+	}
+
+}
+
+
+
+.cards-detail{
+	height:300px;
+}
+
+.cardTitle{
+	font-weight: bold;
+	font-size:2rem;
+}
+
+.cardText{
+	font-size:20px;
+}
+
+
+.detail-services-title{
+	margin-bottom:80px;
+}
+
+.detail-serivces-cards{
+	margin-bottom: 80px;
+}

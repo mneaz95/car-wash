@@ -1,0 +1,167 @@
+body{
+    font-family: 'GlacialIndifferenceRegular';
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+#demo{
+    margin-top:80px;
+}
+
+
+#headingGroup h1{
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+
+
+
+
+.blurb{
+    /*position: absolute;*/
+    /*left: -200px;*/
+    /*background-color: #E8E8E8;*/
+    /*max-height: 800px;*/
+    /*top: 50px;*/
+    /*z-index: 100;*/
+}
+
+
+.blurb h2{
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p{
+    color: black;
+    font-weight: 100;
+    font-size: 1.135rem;
+    line-height:2;
+    
+}
+
+.content{
+    margin-top: 100px;
+}
+
+
+.img{
+    max-width: 100%;
+}
+
+
+
+.info{
+    margin-top: 15px;
+}
+
+
+
+.fTitle{
+    color:white;
+}
+
+
+.sectionOImg{
+    opacity:.4;
+    max-width:100%;
+}
+
+.sectionO{
+    margin-top: 50px;
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.col-md-4{
+  display: inline-block;
+  margin-right:-4px;
+}
+.col-md-4 img{
+  width: 100%;
+  height:auto;
+}
+
+.video-fluid{
+    height:1080px;
+}
+
+@media only screen and (max-width:600px) {
+    .video-fluid{
+        height:800px;
+    }
+}
+
+
+
+
+
+
+
+.gallaryDiv h2{
+    font-size:3.5rem;
+    font-weight:800;
+    animation-duration: 3s;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);
+    padding-bottom: 30px;
+}
+
+.gallaryDiv p{
+    animation-duration: 3s;
+}
+
+.container{
+    width:100%;
+}
+
+
+.animated {
+            -webkit-animation-duration: 10s;
+            animation-duration: 6s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+}
+         
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+         
+@keyframes fadeIn {
+    0% {opacity: 0;}
+            100% {opacity: 1;}
+         }
+         
+         .fadeIn {
+            -webkit-animation-name: fadeIn;
+            animation-name: fadeIn;
+         }
+         
+         
+
+.animates {
+    -webkit-animation-duration: 10s;
+    animation-duration: 4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+         
+.animates-slow {
+    -webkit-animation-duration: 10s;
+    animation-duration: 4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-delay:2s;
+}
+
+
+.p-gallery{
+    padding-top:20px;
+}
+

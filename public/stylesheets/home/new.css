@@ -1,0 +1,288 @@
+.jumbo-numberindicator {
+    font-size: 100px;
+    /*vm : shrinks the font size*/
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px ;
+}
+
+
+@media only screen and (max-width:600px) {
+    .jumbo-numberindicator {
+    font-size: 70px;
+    /*vm : shrinks the font size*/
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px ;
+    }
+}
+
+.jumbo-numberindicator1 {
+    font-size: 90px;
+    /*vm : shrinks the font size*/
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px ;
+}
+
+@media only screen and (max-width:600px) {
+    .jumbo-numberindicator1 {
+        font-size: 70px;
+        /*vm : shrinks the font size*/
+        font-weight: bold;
+        text-transform: uppercase;
+        text-shadow: 2px 2px 5px ;
+    }
+}
+
+.packages{
+    font-size: 100px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.price-section{
+    text-shadow: 2px 2px 5px ;
+    margin-top:100px;
+}
+
+@media only screen and (max-width:600px) {
+    .packages{
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+    }
+}
+
+.midInfo{
+    padding-top: 200px;
+}
+
+@media only screen and (max-width:600px) {
+    .midInfo{
+    padding-top: 0px;
+    }
+
+}
+
+
+
+
+
+.parallax-dimensions {
+    width: 100%;
+    height: 135%;
+}
+
+.backgroundpositioncenter {
+    background-position: center;
+}
+
+
+
+.card{
+    border: 0;
+    border-radius: 0;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    box-shadow: 0px 5px 10px 3px rgba(0,0,0,0.5);
+    word-wrap: break-word;
+    background-color: whitesmoke;
+}
+
+.card-no-shadow {
+    box-shadow: none;
+    border-radius: 0;
+    margin: 0;
+}
+
+.section {
+    margin-top: 20px;
+    position: relative;
+    
+}
+
+@media only screen and (max-width:600px) {
+    .section {
+    margin-top: 0px;
+    position: relative;
+    }
+}
+
+
+.p-md-5 {
+    padding: 3rem;
+}
+
+.p-4 {
+    padding: 1.5rem;
+}
+
+.pt-5, .py-5 {
+    padding-top: 3rem;
+}
+
+.text-left {
+    text-align: left;
+    max-height: 800px;
+}
+
+dl, h1, h2, h3, h4, h5, h6, ol, p, pre, ul {
+    margin-top: 0;
+}
+
+
+
+.backgroundcover {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.container, .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+
+
+
+}
+
+.description, .card-description, .footer-big p {
+    font-weight: 400;
+}
+
+h3, .h3 {
+    font-size: 1.625em;
+    margin-bottom: 30px;
+    line-height: 1.4em;
+}
+
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.fill img {
+    flex-shrink: 0;
+    min-width: 120%;
+    min-height: 100%
+}
+
+.box-lg-shift-right-bottom {
+    left: -200px;
+    background-color: #E8E8E8;
+    top: 50px;
+    z-index: 100;
+    height: 340px;
+}
+
+.box-lg-shift-left-bottom {
+    right: -200px;
+    background-color: #E8E8E8;
+    top: 50px;
+    z-index: 100;
+    height: 340px;
+}
+
+@media only screen and (max-width:600px) {
+
+.box-lg-shift-right-bottom {
+    left: auto;
+    background-color: #E8E8E8;
+    top: auto;
+    z-index: auto;
+}
+
+.box-lg-shift-left-bottom {
+    right: auto;
+    background-color: #E8E8E8;
+    top: auto;
+    z-index: auto;
+}
+     
+}
+
+
+
+
+
+#sectionBot{
+    background-image: url("https://www.ecd-performance.de/wp-content/uploads/2018/11/ecd-performance-exterieur-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:100%;
+    background-attachment: fixed;
+    border: 0;
+    -moz-box-shadow: 0 0 3px #ccc;
+    -webkit-box-shadow: 0 0 3px #ccc;
+    box-shadow: 0 0 3px #ccc;
+}
+
+#sectionBot1{
+    background-image: url("https://images.pexels.com/photos/1149831/pexels-photo-1149831.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:100%;
+    background-attachment: fixed;
+    border: 0;
+    -moz-box-shadow: 0 0 3px #ccc;
+    -webkit-box-shadow: 0 0 3px #ccc;
+    box-shadow: 0 0 3px #ccc;
+}
+
+.botSection-info .sectionButton-Bottom{
+    background:#fa6444;
+    color: white;
+    width:180px;
+    font-weight: 700;
+    border-radius: 30px ;
+    font-size:1.3rem;
+    border: 2px solid #fa6444;
+}
+
+@media only screen and (max-width:600px) {
+    .botSection-info{
+    height:100px;
+    box-shadow: 25px 5px 25px 3px rgba(0,0,0,0.5);
+    }
+}
+
+.botSection-info{
+    height:360px;
+    box-shadow: 25px 5px 25px 3px rgba(0,0,0,0.5);
+}
+
+.cards{
+    background-color: gray;
+}
+
+/*#bb{*/
+/*    background-image: url("https://i.pinimg.com/originals/3a/89/2b/3a892b94265dd6f9a5a4fff6bd84c4bb.jpg");*/
+/*    background-size: cover;*/
+/*    background-repeat: no-repeat;*/
+/*    background-attachment: fixed;*/
+/*    width: 100%;  */
+/*}*/
+
+.descriptionP{
+    font-size: 1.3rem;
+}
+
+#Home-overview{
+    background-color: whitesmoke
+    
+}
+
+.subtitle{
+    font-size:1.3rem;
+}
+
